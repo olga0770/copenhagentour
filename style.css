@@ -1,0 +1,236 @@
+@charset "utf-8";
+* {margin: 0px;padding: 0px;}
+
+body {background-color: skyblue;
+background-image: url(img/dots-01.svg);
+}
+
+
+img{
+width:100%;
+}
+
+
+
+
+
+.mover-1 {
+margin-right: -20px;}
+
+
+    .tech-slideshow {
+    height: 454px;
+    max-width: 6354px;
+    margin-top: 110px;
+    margin-bottom: -300px;
+
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+}
+
+    .tech-slideshow > div {
+    height: 454px;
+    width: 6354px;
+    background: url(img/citySlideShowMirrow-01.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+}
+    .tech-slideshow .mover-1 {
+    animation: moveSlideshow 30s linear infinite;
+}
+
+
+    @keyframes moveSlideshow {
+    100% {
+    transform: translateX(-66.6666%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+#walkcycle {
+    width: 200px;
+    height: 300px;
+    background-image: url(img/walkCycle-01.svg);
+    background-size: 1000px 300px;
+    position: absolute;
+    top: 97.57%;
+    left: 50%;
+    margin-left: -120px;
+    margin-top: -300px;
+
+
+    animation-name: walkcycle_kf;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: steps(5);
+    background-position: -500%;
+}
+
+
+
+@keyframes walkcycle_kf {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: -500%;
+    }
+}
+
+
+
+
+
+
+
+
+
+.logo {
+    width: 160px;
+    height: 120px;
+    background-image: url(img/logo-01.svg);
+    background-size: auto;
+    position: absolute;
+    background-repeat: no-repeat center center;
+
+    top: 10px;
+    left: 50%;
+    margin-left: -80px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.water {
+    height: 300px;
+    background: linear-gradient(to bottom, rgba(20,40,150,1) 0%,rgba(125,185,232,0) 100%);
+    opacity: 0.5;
+    margin-top: 70px;
+    margin-bottom: -50px;
+}
+
+
+
+
+
+
+.choosetour {
+    width: 200px;
+    height: 350px;
+    background-image: url(img/ChooseTour-01.svg);
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -300px;
+}
+
+
+
+
+.iconfacebook {
+    width: 55px;
+    height: 55px;
+    background-image: url(img/iconFacebook-01.svg);
+    position: absolute;
+    top: 68%;
+
+}
+
+.iconinstagram {
+    width: 55px;
+    height: 55px;
+    background-image: url(img/iconInstagram-01.svg);
+    position: absolute;
+    top: 75%;
+
+}
+
+.icontripadvisor {
+    width: 55px;
+    height: 55px;
+    background-image: url(img/tripAdvisor-01.svg);
+    position: absolute;
+    top: 82%;
+
+}
+
+
+.profil {
+    width: 55px;
+    height: 55px;
+    background-image: url(img/PROFIL-01.svg);
+    position: absolute;
+    top: 10px;
+}
+
+
+
+.search {
+    width: 55px;
+    height: 55px;
+    background-image: url(img/search-01.svg);
+    position: absolute;
+    top: 10px;
+    left: 100%;
+    margin-left: -55px;
+}
+
+
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
