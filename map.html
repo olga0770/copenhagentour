@@ -65,89 +65,40 @@
 
 
 
-
-
-
-
-
-
-
-<div class="container">
-<section class="row">
-
-<div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-8 col-md-push-2 tour">
-
-<div class="row turliste">
-<h2>VORES TURE</h2>
-
-<template id="tour_template">
-
-<div class="col-xs-12 col-sm-6 col-md-6 tourheight">
-<img class="img-responsive data_billede" src="img/petroimgs/imgs/small/ringbroed-druer-sm.jpg" alt="img">
-<h4 class="data_navn">DATA_NAVN</h4>
-<p class="data_beskrivelse">DATA_BESKRIVELSE</p>
-<br>
-
-
-
-<!-- Button trigger modal -->
-<button data-id="UDSKIFT_MIG" type="button" class="btn btn-default modalknap" data-toggle="modal"
-data-target="#myModal">Læs mere</button>
-
-<a href="map.html"><button type="button" class="btn btn-default">Interaktivt kort</button></a>
-
-
-
-<!-- Modal -->
-<!--<template  id="modal_template">-->
-
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-<div class="modal-dialog" role="document">
-<div class="modal-content">
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Læs mere</h4>
-    </div>
-
-<div class="modal-body">
-<p></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Luk</button></div>
-</div>
-</div>
+<div class="mapheading">
+<h3>Interaktivt kort</h3>
+<h3>Christianshavn, kendisser og kringelkroge</h3>
 </div>
 
+
+<div id="map"></div>
+
+
+<template id="informationmarker">
+<div class="windowinfo">
+<img class="img-responsive data_billede" src="picture/kea-sted.jpg" alt="img">
+<h5 class="data_navn">DATA_NAVN</h5>
+<h5 class="data_adresse">ADRESSE</h5>
+<h7 class="data_beskrivelse">BESKRIVELSE</h7>
 </div>
 </template>
-</div>
-
-
-
-</div>
-</section>
-</div>
 
 
 
 
 
 
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ_snODVKqqaKHb1AClI6TTv8DvWtiXSk&callback=initMap">
+    </script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-    <!-- jQuery Version 1.11.1 -->
+<!-- jQuery Version 1.11.1 -->
 <script src="js/jquery.js"></script>
 
 <script src="js/parallax.js"></script>
@@ -155,8 +106,8 @@ data-target="#myModal">Læs mere</button>
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 
-<script src="js.js"></script>
-<script src="json.json"></script>
+<script src="jsmap.js"></script>
+<script src="jsonmap.json"></script>
 
 
 

@@ -80,6 +80,43 @@ function visTur(tour) {
 
 
 
+var bounds = null;
+var watchID;
+var center = {lat: 55.703790, lng: 12.538337};
+var map;
+
+
+function initMap() {
+map = new google.maps.Map(document.getElementById('map'), {
+center: center,
+//scrollwheel: false,
+zoom: 16
+});
+
+
+var imageBounds = {
+north: 55.710397055188594,
+south: 55.69718182757236,
+east: 12.548679597961382,
+west: 12.52799440203853
+};
+var overlay = new google.maps.GroundOverlay('picture/map-01.svg', imageBounds);
+overlay.setMap(map);
+
+$.getJSON("json.json", buildMap);
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
