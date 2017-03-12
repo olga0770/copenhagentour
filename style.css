@@ -1,8 +1,9 @@
 @charset "utf-8";
 * {margin: 0px;padding: 0px;}
 
-body {background-color: skyblue;
-background-image: url(img/dots-01.svg);
+body {
+background-color:cornflowerblue;
+
 }
 
 
@@ -13,6 +14,7 @@ width:100%;
 
 
 
+/* slideshow - houses are moving */
 
 .mover-1 {
 margin-right: -20px;}
@@ -57,18 +59,18 @@ margin-right: -20px;}
 
 
 
-
+/* walkcycle */
 
 #walkcycle {
-    width: 200px;
-    height: 300px;
+    width: 100px;
+    height: 150px;
     background-image: url(img/walkCycle-01.svg);
-    background-size: 1000px 300px;
-    position: absolute;
+    background-size: 500px 150px;
+    position: fixed;
     top: 97.57%;
     left: 50%;
-    margin-left: -120px;
-    margin-top: -300px;
+    margin-left: -50px;
+    margin-top: -165px;
 
 
     animation-name: walkcycle_kf;
@@ -137,24 +139,29 @@ margin-right: -20px;}
 
 .choosetour {
     width: 200px;
-    height: 350px;
+    height: 70px;
     background-image: url(img/ChooseTour-01.svg);
-    position: absolute;
-    top: 93%;
+    background-repeat: no-repeat center center;
+    position: fixed;
+    top: 100%;
     left: 50%;
     margin-left: -100px;
-    margin-top: -300px;
+    margin-top: -220px;
 }
 
 
+.icon{
+position: fixed;
+    top: 51%;
+left: -10px;}
 
 
 .iconfacebook {
     width: 55px;
     height: 55px;
     background-image: url(img/iconFacebook-01.svg);
-    position: absolute;
-    top: 68%;
+    position: fixed;
+    top: 51%;
 
 }
 
@@ -162,8 +169,8 @@ margin-right: -20px;}
     width: 55px;
     height: 55px;
     background-image: url(img/iconInstagram-01.svg);
-    position: absolute;
-    top: 75%;
+    position: fixed;
+    top: 61%;
 
 }
 
@@ -171,8 +178,8 @@ margin-right: -20px;}
     width: 55px;
     height: 55px;
     background-image: url(img/tripAdvisor-01.svg);
-    position: absolute;
-    top: 82%;
+    position: fixed;
+    top: 71%;
 
 }
 
@@ -208,6 +215,51 @@ margin-right: -20px;}
 .navbar .navbar-collapse {
     text-align: center;
 }
+
+
+
+/* our tours */
+
+.tour{
+    margin-top: 120px;
+    margin-bottom: 80px;
+    margin-left: 0px;
+    padding-bottom: 20px;
+}
+
+h2{
+text-align: center;
+}
+
+
+
+
+
+.data_billede{
+    border-style:solid;
+    border-color: white;
+    border-width:medium;
+    margin-top: 15px;
+    }
+
+
+
+
+
+h3 {
+    text-decoration: underline;}
+
+
+
+
+
+
+
+/*
+.tourheight {
+height: 450px;
+}
+*/
 
 
 
