@@ -7,6 +7,7 @@ var map;
 
 
 
+
 function initMap() {
 map = new google.maps.Map(document.getElementById('map'), {
 center: center,
@@ -16,12 +17,12 @@ zoom: 16
 
 
 var imageBounds = {
-north: 55.710397055188594,
-south: 55.69718182757236,
-east: 12.548679597961382,
-west: 12.52799440203853
+north: 55.67697289249988,
+south: 55.66971277068703,
+east: 12.596073738128666,
+west: 12.587190261871342
 };
-var overlay = new google.maps.GroundOverlay('picture/map-01.svg', imageBounds);
+var overlay = new google.maps.GroundOverlay('img/mapOverlay-01.svg', imageBounds);
 overlay.setMap(map);
 
 $.getJSON("jsonmap.json", buildMap);
@@ -59,16 +60,49 @@ marker.addListener("click", function () {
 
 var clone = document.querySelector("#informationmarker").content.cloneNode(true);
 
-clone.querySelector(".data_billede").src = "img/" + sted.billede + "-sted.jpg";
+//clone.querySelector(".data_billede").src = "img/" + sted.billede + "-sted.jpg";
 clone.querySelector(".data_navn").innerHTML = sted.navn;
 clone.querySelector(".data_adresse").innerHTML = sted.adresse;
-clone.querySelector(".data_beskrivelse").innerHTML = sted.beskrivelse;
+//clone.querySelector(".data_beskrivelse").innerHTML = sted.beskrivelse;
 
 infowindow.setContent(clone);
 infowindow.open(map, marker);
 
 });
 }
+
+
+
+
+
+//$(".maplabel1").addClass("scale-up");
+//$(".maplabel1").removeClass("scale-up");
+
+
+function clicklabel() {
+console.log("clicklabel");
+
+var el = document.querySelector(".maplabel1");
+
+el.classList.add("scale-up");
+el.classList.remove("scale-up");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
