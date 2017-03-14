@@ -1,8 +1,7 @@
 var bounds = null;
 var watchID;
-var center = {lat: 55.673361, lng: 12.590022};
+var center = {lat: 55.673343, lng: 12.591632};
 var map;
-
 
 
 

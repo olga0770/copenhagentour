@@ -25,6 +25,10 @@
 
 <body>
 
+<div class="background"></div>
+
+
+
     <nav class="navbar navbar-inverse navbar-fixed-bottom">
         <div class="container">
             <div class="navbar-header">
@@ -78,24 +82,28 @@
 <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-8 col-md-push-2 tour">
 
 <div class="row turliste">
-<h2>VORES TURE</h2>
+<div class="voresture"><h2>VORES TURE</h2></div>
 
 <template id="tour_template">
 
 <div class="col-xs-12 col-sm-6 col-md-6 tourheight">
+
 <img class="img-responsive data_billede" src="img/petroimgs/imgs/small/ringbroed-druer-sm.jpg" alt="img">
+
 <h4 class="data_navn">DATA_NAVN</h4>
 <p class="data_beskrivelse">DATA_BESKRIVELSE</p>
-<br>
-
-
 
 <!-- Button trigger modal -->
-<button data-id="UDSKIFT_MIG" type="button" class="btn btn-default modalknap" data-toggle="modal"
+<!--
+<button data-id="UDSKIFT_MIG" type="button" class="btn btn-primary modalknap" data-toggle="modal"
 data-target="#myModal">Læs mere</button>
+-->
 
-<a href="map.html"><button type="button" class="btn btn-default">Interaktivt kort</button></a>
+<a href="map.html"><button type="button" class="btn btn-primary">Interaktivt kort</button></a>
+<br>
+<br>
 
+</div>
 
 
 <!-- Modal -->
@@ -118,7 +126,7 @@ data-target="#myModal">Læs mere</button>
 </div>
 </div>
 
-</div>
+
 </template>
 </div>
 

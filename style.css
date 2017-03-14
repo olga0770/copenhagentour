@@ -2,13 +2,41 @@
 * {margin: 0px;padding: 0px;}
 
 body {
-background-color:cornflowerblue;
-
+background-color: gainsboro;
 }
 
 
 img{
 width:100%;
+}
+
+
+
+
+
+.background{
+background-color: #659ad2;
+position: absolute;
+margin-top: -120px;
+width: 100%;
+height: 237px;
+}
+
+
+.background1{
+background-color: #659ad2;
+position: absolute;
+margin-top: -120px;
+width: 100%;
+height: 100%;
+}
+
+.background3{
+background-image: url(img/dots-01.svg);
+position: absolute;
+margin-top: -120px;
+width: 100%;
+height: 100%;
 }
 
 
@@ -42,7 +70,7 @@ margin-right: -20px;}
     transform: translate3d(0, 0, 0);
 }
     .tech-slideshow .mover-1 {
-    animation: moveSlideshow 30s linear infinite;
+    animation: moveSlideshow 80s linear infinite;
 }
 
 
@@ -152,8 +180,7 @@ margin-right: -20px;}
 
 .icon{
 position: fixed;
-    top: 51%;
-left: -10px;}
+left: -5px;}
 
 
 .iconfacebook {
@@ -161,7 +188,7 @@ left: -10px;}
     height: 55px;
     background-image: url(img/iconFacebook-01.svg);
     position: fixed;
-    top: 51%;
+    top: 60%;
 
 }
 
@@ -170,7 +197,7 @@ left: -10px;}
     height: 55px;
     background-image: url(img/iconInstagram-01.svg);
     position: fixed;
-    top: 61%;
+    top: 70%;
 
 }
 
@@ -179,7 +206,7 @@ left: -10px;}
     height: 55px;
     background-image: url(img/tripAdvisor-01.svg);
     position: fixed;
-    top: 71%;
+    top: 80%;
 
 }
 
@@ -228,27 +255,23 @@ left: -10px;}
 }
 
 
-h2{
-text-align: center;
-}
 
 
-h3{
-text-align: center;
-color: white;
-}
 
 
-h4 {
-color: white;
-}
+
+
+
+
+
+
 
 
 .data_billede{
     border-style:solid;
-    border-color: white;
-    border-width:medium;
-    margin-top: 15px;
+    border-color: black;
+    border-width:thin;
+    margin-top: 12px;
     }
 
 
@@ -258,12 +281,6 @@ color: white;
 
 
 
-
-/*
-.tourheight {
-height: 450px;
-}
-*/
 
 
 
@@ -285,16 +302,10 @@ height: 450px;
 
 
 #map{
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom: 80px;
-    margin-left: 35px;
-    margin-right: 35px;
-    border-color: white;
-    border-width: medium;
-    border-style:solid;
     padding-bottom: 600px;
-
-    }
+}
 
 
 
@@ -305,29 +316,151 @@ height: 450px;
     border-width: thick;
     padding-top: 10px;
     padding-bottom: 10px;
-    text-align: center;
     }
 
 .mapheading{
-margin-top: 120px;
+margin-top: 10px;
+margin-left: 15px;
 }
-
-
-
 
 
 
 .persona{
     margin-top: 120px;
     margin-bottom: 80px;
-    margin-left: 0px;
     padding-bottom: 20px;
 }
 
-.persona h5{
+
+.aboutus{
 margin-left: 15px;
 margin-right: 15px;
 }
+
+
+
+
+.contact{
+    margin-top: 120px;
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+
+}
+
+
+
+
+
+.contact img{
+    border-style:solid;
+    border-color: black;
+    border-width:thin;
+    margin-top: 15px;
+    }
+
+
+.kontaktos{
+margin-left: 5px;
+margin-right: 5px;
+}
+
+
+
+h2{
+background-color: #bebebe;
+width: 100%;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-bottom: 25px;
+}
+
+.voresture{
+margin-left: 15px;
+margin-right: 15px;
+}
+
+
+
+
+
+
+.maplabel{
+position: fixed;
+}
+
+
+.maplabel1 {
+    width: 55px;
+    height: 55px;
+    background-image: url(img/maplabel1-01.svg);
+    position: fixed;
+    top: 15%;
+}
+
+.maplabel2 {
+    width: 55px;
+    height: 55px;
+    background-image: url(img/maplabel2-01.svg);
+    position: fixed;
+    top: 22%;
+
+}
+
+.maplabel3 {
+    width: 55px;
+    height: 55px;
+    background-image: url(img/maplabel3-01.svg);
+    position: fixed;
+    top: 29%;
+}
+
+.maplabel4 {
+    width: 55px;
+    height: 55px;
+    background-image: url(img/maplabel4-01.svg);
+    position: fixed;
+    top: 36%;
+}
+
+.maplabel5 {
+    width: 55px;
+    height: 55px;
+    background-image: url(img/maplabel5-01.svg);
+    position: fixed;
+    top: 43%;
+}
+
+.maplabel6 {
+    width: 55px;
+    height: 55px;
+    background-image: url(img/maplabel6-01.svg);
+    position: fixed;
+    top: 50%;
+}
+
+.maplabel7 {
+    width: 55px;
+    height: 55px;
+    background-image: url(img/maplabel7-01.svg);
+    position: fixed;
+    top: 57%;
+}
+
+.maplabel8 {
+    width: 55px;
+    height: 55px;
+    background-image: url(img/maplabel8-01.svg);
+    position: fixed;
+    top: 64%;
+}
+
+
+
+
+
+
+
 
 
 

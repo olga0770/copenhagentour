@@ -25,6 +25,8 @@
 
 <body>
 
+<div class="background"></div>
+
     <nav class="navbar navbar-inverse navbar-fixed-bottom">
         <div class="container">
             <div class="navbar-header">
@@ -78,28 +80,49 @@
 <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-8 col-md-push-2 persona">
 
 <div class="row personaliste">
+
+<div class="aboutus">
 <h2>OM OS</h2>
 
-<h3>På tur med chefer og kolleger? Hvad skal I finde på?</h3>
+<h4>På tur med chefer og kolleger? Hvad skal I finde på?</h4>
 
-<h5>Hvad med en fælles oplevelse, hvor alle kan være med. En hyggelig slentretur med historisk viden og sjove anekdoter, som I kan tage med jer videre?</h5>
-<h5>Vi tilrettelægger guidede ture til firmaarrangementet, familiefesten eller venindeturen.</h5>
-<h5>Vi skræddersyr jeres tur og sammen finder vi det bedste tema og den bedste transportform.</h5>
-<h5>Vi booker gerne restauranter, sørger for drikkevarer eller planlægger smagsprøver og quiz på turen.</h5>
+<p>Vi tilrettelægger guidede ture til firmaarrangementet, familiefesten eller venindeturen.</p>
+<p>Vi skræddersyr jeres tur og sammen finder vi det bedste tema og den bedste transportform.</p>
+<p>Vi booker gerne restauranter, sørger for drikkevarer eller planlægger smagsprøver og quiz på turen.</p>
+</div>
 
 <template id="persona_template">
 
-<div class="col-xs-12 col-sm-6 col-md-6 tourheight">
+<div class="col-xs-6 col-sm-6 col-md-6 tourheight">
 <img class="img-responsive data_billede" src="img/petroimgs/imgs/small/ringbroed-druer-sm.jpg" alt="img">
 <h4 class="data_navn">DATA_NAVN</h4>
 <p class="data_beskrivelse">DATA_BESKRIVELSE</p>
+
+<button data-id="UDSKIFT_MIG" type="button" class="btn btn-primary modalknap" data-toggle="modal"
+data-target="#myModal">Læs mere</button>
 <br>
-
-
-
-
-
 </div>
+
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Læs mere</h4>
+    </div>
+
+<div class="modal-body">
+<p></p>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Luk</button></div>
+</div>
+</div>
+</div>
+
+
 </template>
 </div>
 
