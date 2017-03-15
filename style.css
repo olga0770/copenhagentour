@@ -218,9 +218,7 @@ margin-right: -20px;}
 }
 
 
-.icon{
-position: fixed;
-left: -5px;}
+
 
 
 .star {
@@ -285,7 +283,8 @@ left: -5px;}
     height: 55px;
     background-image: url(img/iconFacebook-01.svg);
     position: fixed;
-    top: 60%;
+    top: 100%;
+    margin-top: -200px;
 }
 
 .iconinstagram {
@@ -293,7 +292,8 @@ left: -5px;}
     height: 55px;
     background-image: url(img/iconInstagram-01.svg);
     position: fixed;
-    top: 70%;
+    top: 100%;
+    margin-top: -150px;
 }
 
 
@@ -303,7 +303,8 @@ left: -5px;}
     height: 55px;
     background-image: url(img/tripAdvisor-01.svg);
     position: fixed;
-    top: 80%;
+    top: 100%;
+    margin-top: -100px;
 
 }
 
