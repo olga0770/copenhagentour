@@ -3,8 +3,11 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 55 55" style="enable-background:new 0 0 55 55;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
 </style>
 <title>back</title>
-<polygon class="st0" points="37.8,53.3 12.2,27.6 37.8,2 "/>
+<g>
+	<polyline class="st0" points="18.3,36.2 7.2,25.1 18.3,14.1 	"/>
+	<path class="st0" d="M7.6,25.1h33.3c3.8,0,6.9,3.1,6.9,6.9v0c0,3.8-3.1,6.9-6.9,6.9H28.2"/>
+</g>
 </svg>

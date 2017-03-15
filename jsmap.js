@@ -60,10 +60,10 @@ marker.addListener("click", function () {
 
 var clone = document.querySelector("#informationmarker").content.cloneNode(true);
 
-//clone.querySelector(".data_billede").src = "img/" + sted.billede + "-sted.jpg";
+clone.querySelector(".data_billede").src = "img/" + sted.billede + "-sted.jpg";
 clone.querySelector(".data_navn").innerHTML = sted.navn;
 clone.querySelector(".data_adresse").innerHTML = sted.adresse;
-//clone.querySelector(".data_beskrivelse").innerHTML = sted.beskrivelse;
+clone.querySelector(".data_beskrivelse").innerHTML = sted.beskrivelse;
 
 infowindow.setContent(clone);
 infowindow.open(map, marker);
