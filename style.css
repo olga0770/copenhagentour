@@ -671,7 +671,7 @@ padding-bottom: 70px;
 
 
     animation-name: puzzlecycle_kf;
-    animation-iteration-count: 2;
+    animation-iteration-count: 1;
     animation-duration: 6s;
     animation-timing-function: steps(6);
     background-position: -600%;
