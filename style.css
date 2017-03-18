@@ -16,11 +16,13 @@ width:100%;
 
 .background{
 background-color: #001552;
+/*background-image: url(img/evening.jpg);*/
 position: absolute;
 margin-top: -120px;
 width: 100%;
 height: 237px;
 }
+
 
 
 .background1{
@@ -35,9 +37,9 @@ height: 100%;
 background-color: #c8c800;
 position: fixed;
 top: 100%;
-margin-top: -122px;
+margin-top: -90px;
 width: 100%;
-height: 160px;
+height: 140px;
 }
 
 
@@ -62,7 +64,16 @@ height: 90px;
 background-color: #bebebe;
 position: fixed;
 width: 100%;
-height: 300px;
+height: 150px;
+}
+
+
+.background7{
+background-image: url(img/evening.jpg);
+position: absolute;
+margin-top: 20px;
+width: 100%;
+height: 237px;
 }
 
 
@@ -168,6 +179,12 @@ margin-right: -20px;}
 }
 
 
+
+
+
+
+
+
 .logowhite {
     width: 160px;
     height: 120px;
@@ -182,6 +199,20 @@ margin-right: -20px;}
     z-index: 1;
 }
 
+
+.bigstar {
+    width: 64px;
+    height: 64px;
+    background-image: url(img/bigStar-01.svg);
+    background-size: auto;
+    position: absolute;
+    background-repeat: no-repeat center center;
+
+    top: 140px;
+    left: 50%;
+    margin-left: -32px;
+    z-index: 1;
+}
 
 
 
@@ -228,7 +259,7 @@ margin-right: -20px;}
     margin-bottom: 40px;
     position: fixed;
     top: 100%;
-    margin-top: -100px;
+    margin-top: -87px;
     left: 5px;
 
 }
@@ -243,7 +274,7 @@ margin-right: -20px;}
     top: 100%;
     left: 100%;
     margin-left: -60px;
-    margin-top: -110px;
+    margin-top: -98px;
     display: inline-block;
 }
 
@@ -256,7 +287,7 @@ margin-right: -20px;}
     top: 100%;
     left: 100%;
     margin-left: -100px;
-    margin-top: -110px;
+    margin-top: -98px;
     display: inline-block;
 }
 
@@ -271,7 +302,7 @@ margin-right: -20px;}
     top: 100%;
     left: 100%;
     margin-left: -140px;
-    margin-top: -110px;
+    margin-top: -98px;
     display: inline-block;
 }
 
@@ -356,7 +387,7 @@ margin-right: -20px;}
 /* our tours */
 
 .tour{
-    margin-top: 10px;
+    margin-top: 180px;
     margin-bottom: 80px;
     margin-left: 0px;
     padding-bottom: 20px;
@@ -487,7 +518,7 @@ margin-top: -120px;
 
 
 h3{
-background-color: #001552;
+/*background-color: #c8c800;*/
 width: 100%;
 text-align: center;
 padding-top: 15px;
@@ -519,27 +550,23 @@ position: fixed;
     top: 15%;
     left: 100%;
     margin-left: -55px;
-}
 
-/*
+
     animation-name: scale-up-anim;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+    animation-delay: 2s;
 }
 
 
 @keyframes scale-up-anim {
             0% {
-                transform: scale(0.7, 0.7);
-            }
-            50% {
-                transform: scale(1.2, 1.2);
+                transform: scale(0, 0);
             }
             100% {
-                transform: scale(0.7, 0.7);
+                transform: scale(1, 1);
             }
             }
-*/
 
 
 
@@ -558,6 +585,11 @@ position: fixed;
     top: 25%;
     left: 100%;
     margin-left: -55px;
+
+    animation-name: scale-up-anim;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+    animation-delay: 4s;
 }
 
 
@@ -570,6 +602,11 @@ position: fixed;
     top: 35%;
     left: 100%;
     margin-left: -55px;
+
+    animation-name: scale-up-anim;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+    animation-delay: 6s;
 }
 
 
@@ -616,6 +653,11 @@ margin-right: -30px;
 margin-bottom: 70px;
 padding-bottom: 70px;
 }
+
+
+
+
+
 
 
 

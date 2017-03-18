@@ -1,0 +1,48 @@
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64.8 64.8" style="enable-background:new 0 0 64.8 64.8;" xml:space="preserve">
+
+
+
+
+
+
+<style type="text/css">
+	.star0{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+
+
+
+
+<defs>
+<style>
+
+.star0 {
+    stroke-dasharray: 300;
+    stroke-dashoffset:0;
+    -webkit-animation: dash 4s linear forwards;
+    -o-animation: dash 4s linear forwards;
+    -moz-animation: dash 4s linear forwards;
+    animation: dash 4s linear forwards;
+    }
+
+@-webkit-keyframes dash {
+    from {
+        stroke-dashoffset: 300;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+    }
+
+
+
+</style>
+</defs>
+
+</style>
+
+
+
+<path class="star0" d="M50.5,59.8L32.6,47L14.4,59.5l6.5-21L3.5,25l22-0.3l7.4-20.8L40,24.8l22,0.6L44.3,38.6L50.5,59.8z"/>
+</svg>
