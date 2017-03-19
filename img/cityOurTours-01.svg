@@ -1,0 +1,55 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 850.4 184.3" style="enable-background:new 0 0 850.4 184.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:10;}
+
+
+
+
+<defs>
+<style>
+
+.st0 {
+    stroke-dasharray: 2500;
+    stroke-dashoffset:0;
+    -webkit-animation: dash 10s linear forwards;
+    -o-animation: dash 10s linear forwards;
+    -moz-animation: dash 10s linear forwards;
+    animation: dash 10s linear forwards;
+    }
+
+@-webkit-keyframes dash {
+    from {
+        stroke-dashoffset: 2500;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+    }
+
+</style>
+</defs>
+
+
+
+
+
+
+
+</style>
+<g id="houses">
+	<title>cityOurTours</title>
+	<g>
+		<path class="st0" d="M3.8,165.2h167.7V91.6h26.2l47.7-70.3l46.5,66.8h26.2v34.6h27.4V80.9l52.5-62L448,78.5v42.9h27.4v-62h28.6
+			V40.4h11.6v17.9h51V3.4H581v11.9h99.1v149.9l166.1-0.9v15.9H4C4,180.3,3.6,165.2,3.8,165.2z"/>
+	</g>
+</g>
+<g id="windows">
+	<circle class="st0" cx="245.9" cy="88" r="13"/>
+	<rect x="410.8" y="77.8" class="st0" width="18.1" height="18.1"/>
+	<rect x="498.5" y="77.8" class="st0" width="18.1" height="18.1"/>
+	<rect x="643.7" y="37" class="st0" width="18.1" height="18.1"/>
+	<rect x="643.7" y="77.8" class="st0" width="18.1" height="18.1"/>
+</g>
+</svg>

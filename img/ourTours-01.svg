@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="300mm" height="65mm" viewBox="0 0 850.39 184.25">
+  <title>ourTours</title>
+  <g>
+    <polyline points="-0.2 180.23 171.48 180.23 171.48 91.63 197.71 91.63 245.39 21.3 291.88 88.06 318.11 88.06 318.11 122.63 345.53 122.63 345.53 80.9 397.98 18.91 448.05 78.52 448.05 121.44 475.47 121.44 475.47 59.45 504.08 59.45 504.08 40.37 515.71 40.37 515.71 58.25 566.73 58.25 566.73 3.42 581.04 3.42 581.04 15.34 680.12 15.34 680.12 180.23 850.2 179.32" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <circle cx="245.85" cy="88.04" r="13.04" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <rect x="410.83" y="77.84" width="18.14" height="18.14" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <rect x="498.51" y="77.84" width="18.14" height="18.14" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <rect x="643.65" y="37.02" width="18.14" height="18.14" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <rect x="643.65" y="77.84" width="18.14" height="18.14" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>
