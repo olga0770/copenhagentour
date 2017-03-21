@@ -73,7 +73,7 @@ background-image: url(img/evening.jpg);
 position: absolute;
 margin-top: 20px;
 width: 100%;
-height: 237px;
+height: 240px;
 }
 
 
@@ -270,10 +270,9 @@ margin-right: -20px;}
 
 
 
-.star {
+#evaluation {
     width: 180px;
     height: 30px;
-    background-image: url(img/star-01.svg);
     margin-bottom: 40px;
     position: fixed;
     top: 100%;
@@ -630,6 +629,22 @@ position: fixed;
 
 
 
+.quiz {
+    width: 80px;
+    height: 40px;
+    background-image: url(img/quiz-01.svg);
+    position: fixed;
+    top: 100%;
+    left: 15px;
+    margin-top: -100px;
+}
+
+
+
+.panorama{
+margin-bottom: 100px;
+}
+
 
 
 .karisel{
@@ -681,8 +696,8 @@ padding-bottom: 70px;
     height: 200px;
     background-image: url(img/puzzle-01.svg);
     background-size: 1200px 200px;
-    position: fixed;
-    top: 332px;
+    position: absolute;
+    top: 180px;
     left: 50%;
     margin-left: -100px;
     margin-top: -165px;
@@ -704,6 +719,21 @@ padding-bottom: 70px;
     100% {
         background-position: -600%;
     }
+}
+
+
+.puzzleimage{
+    width: 300px;
+    height: 373px;
+    background-image: url(img/puzzle.jpg);
+/*    background-size: 600px 745px;*/
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -120px;
+    margin-bottom: 150px;
+
 }
 
 

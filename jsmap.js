@@ -65,6 +65,7 @@ clone.querySelector(".data_navn").innerHTML = sted.navn;
 clone.querySelector(".data_adresse").innerHTML = sted.adresse;
 clone.querySelector(".data_beskrivelse").innerHTML = sted.beskrivelse;
 
+
 infowindow.setContent(clone);
 infowindow.open(map, marker);
 
